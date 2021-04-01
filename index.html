@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        --light-color: #f4f4f4;
+        --dark-color: #926239;
+        font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 17px;
+        line-height: 1.6em;
+      }
+      header {
+        background-image: url('http://traversymedia.com/downloads/assets/beachshowcase.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+
+        text-align: center;
+        /* width: 100%; */
+        padding-top: 30vh;
+
+        border: 1px solid transparent;
+        background-origin: border-box;
+      }
+
+      header > h1 {
+        text-transform: capitalize;
+        font-size: 50px;
+        line-height: 1.2em;
+      }
+
+      header > p {
+        font-size: 20px;
+      }
+
+      header > a {
+        text-decoration: none;
+        border: 1px solid var(--dark-color);
+        border-radius: 10px;
+        color: var(--dark-color);
+        padding: 10px 20px;
+        display: inline-block;
+        margin: 10px;
+        /* width: 140px; */
+      }
+
+      header > a:hover {
+        color: var(--light-color);
+        background-color: var(--dark-color);
+      }
+
+      section {
+        width: 100%;
+      }
+
+      .lightDiv {
+        color: var(--dark-color);
+        background-color: var(--light-color);
+      }
+
+      .darkDiv {
+        color: var(--light-color);
+        background-color: var(--dark-color);
+      }
+
+      .wideDiv {
+        text-align: center;
+      }
+
+      .inlineBlock {
+        display: inline-block;
+        width: 33.33%;
+      }
+
+      p {
+        margin: 0;
+        padding: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="lightDiv">
+      <h1>Welcome To The Beach</h1>
+      <p
+        >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi officiis
+        ipsum officia numquam expedita ullam.</p
+      >
+      <a href="#">Read More</a>
+    </header>
+    <main>
+      <section class="darkDiv"
+        ><p
+          >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit minus
+          impedit maxime, quae soluta quis cumque perferendis! Doloribus
+          quaerat, placeat iste facere, aspernatur ex cum veritatis laudantium,
+          officia, non porro exercitationem incidunt quis dolore? Officia ex
+          accusamus expedita optio, voluptatem minus? In maiores omnis aperiam
+          earum ab molestiae beatae laborum blanditiis incidunt, delectus dolor,
+          id voluptates optio aspernatur aliquam saepe atque labore? Tempore
+          reprehenderit ab ipsam perspiciatis ut, provident perferendis sapiente
+          in numquam blanditiis, enim, illo error nulla incidunt quos quidem
+          ratione repellat ipsa molestias veritatis? Mollitia, fugit dolore
+          commodi porro repudiandae atque, eos, ipsum quam culpa fuga deleniti
+          quae.</p
+        ></section
+      >
+      <section class="lightDiv">
+        <p
+          >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit minus
+          impedit maxime, quae soluta quis cumque perferendis! Doloribus
+          quaerat, placeat iste facere, aspernatur ex cum veritatis laudantium,
+          officia, non porro exercitationem incidunt quis dolore? Officia ex
+          accusamus expedita optio, voluptatem minus? In maiores omnis aperiam
+          earum ab molestiae beatae laborum blanditiis incidunt, delectus dolor,
+          id voluptates optio aspernatur aliquam saepe atque labore? Tempore
+          reprehenderit ab ipsam perspiciatis ut, provident perferendis sapiente
+          in numquam blanditiis, enim, illo error nulla incidunt quos quidem
+          ratione repellat ipsa molestias veritatis? Mollitia, fugit dolore
+          commodi porro repudiandae atque, eos, ipsum quam culpa fuga deleniti
+          quae.</p
+        >
+      </section>
+      <section class="inlineBlock darkDiv">
+        <p
+          >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
+          dolorum est, molestias dolores quis sunt nobis temporibus veritatis
+          libero odio!</p
+        ></section
+      ><section class="inlineBlock lightDiv">
+        <p
+          >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
+          dolorum est, molestias dolores quis sunt nobis temporibus veritatis
+          libero odio!</p
+        ></section
+      ><section class="inlineBlock darkDiv">
+        <p
+          >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
+          dolorum est, molestias dolores quis sunt nobis temporibus veritatis
+          libero odio!</p
+        >
+      </section>
+    </main>
+  </body>
+</html>
